@@ -41,7 +41,7 @@ export default function App() {
   }, [tenzies])
   
   function generateTime(){
-    if(time => 60){
+    if(time >= 60){
       const seconds = time%60
       const minutes = Math.floor(time/60)
 
